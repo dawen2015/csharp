@@ -20,7 +20,7 @@
                        [(ngModel)]="userLogin.userName" #username="ngModel" required />
                 <i *ngIf="f.submitted" class="fa form-control-feedback" [ngClass]="{'fa-check': username.valid, 'fa-times' : !username.valid}" aria-hidden="true"></i>
                 <span class="invalid-feedback" *ngIf="f.submitted && !username.valid">
-                  Username is required
+                  **Username is required
                 </span>
               </div>
             </div>
